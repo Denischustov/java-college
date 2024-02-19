@@ -1,9 +1,9 @@
 package climber;
 
 public class Mountain {
-    public String name;
-    public String country;
-    public int height;
+    private String name;
+    private String country;
+    private int height;
 
     public Mountain(String name, String country, int height) {
         this.name = name;
